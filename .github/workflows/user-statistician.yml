@@ -16,32 +16,59 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    # ================= LANGUAGES =================
+
     - name: Generate the languages distribution
       uses: cicirello/user-statistician@v1.24.2
       with:
         image-file: images/languages.svg
+
         hide-keys: general, contributions, repositories
-        custom-title: 'Most Used Languages'
+
+        custom-title: 'Most Used Technologies'
+
         animated-language-chart: true
+
+        exclude-languages: >
+          jupyter notebook,
+          cython,
+          html,
+          css,
+          tex,
+          cmake,
+          makefile,
+          matlab
+
         colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    # ================= CONTRIBUTIONS =================
 
     - name: Generate the contributions stats
       uses: cicirello/user-statistician@v1.24.2
       with:
         image-file: images/contribs.svg
+
         hide-keys: general, languages, repositories
+
         colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    # ================= REPOSITORIES =================
 
     - name: Generate the repositories stats
       uses: cicirello/user-statistician@v1.24.2
       with:
         image-file: images/repos.svg
+
         hide-keys: general, contributions, languages
+
         colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
