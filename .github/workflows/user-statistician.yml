@@ -1,0 +1,35 @@
+name: User Statistician
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: images/contribs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: DhruvGardharia
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: images/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: DhruvGardharia
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          config_timezone: Asia/Kolkata
