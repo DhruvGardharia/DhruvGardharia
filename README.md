@@ -131,18 +131,20 @@ Current Focus:
 
 </tr>
 </table>
-
 <br>
 <br>
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📊 Github Stats</h2>
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dhruvgardharia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvgardharia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-
-</div>
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/DhruvGardharia/DhruvGardharia/main/images/contribs.svg"
+    width="52%"
+  />
+  <img
+    src="https://raw.githubusercontent.com/DhruvGardharia/DhruvGardharia/main/images/languages.svg"
+    width="40.5%"
+  />
+</p>
 
 <br>
