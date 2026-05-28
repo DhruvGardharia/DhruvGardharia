@@ -12,7 +12,7 @@ jobs:
 
     permissions:
       contents: write
-
+      
     steps:
     - uses: actions/checkout@v3
 
@@ -29,15 +29,9 @@ jobs:
 
         animated-language-chart: true
 
-        exclude-languages: >
-          jupyter notebook,
-          cython,
-          html,
-          css,
-          tex,
-          cmake,
-          makefile,
-          matlab
+        args: >
+          --exclude-repos
+          SIH
 
         colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
 
