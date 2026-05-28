@@ -1,35 +1,50 @@
-name: User Statistician
+```yaml
+name: user-statistician
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
-  metrics:
+  stats:
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: images/contribs.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: DhruvGardharia
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Kolkata
+    - uses: actions/checkout@v3
 
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: images/languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: DhruvGardharia
-          template: classic
-          base: ""
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          config_timezone: Asia/Kolkata
+    - name: Generate the languages distribution
+      uses: cicirello/user-statistician@v1.24.2
+      with:
+        user: DhruvGardharia
+        image-file: images/languages.svg
+        hide-keys: general, contributions, repositories
+        custom-title: 'Most Used Languages'
+        animated-language-chart: true
+        colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    - name: Generate the contributions stats
+      uses: cicirello/user-statistician@v1.24.2
+      with:
+        user: DhruvGardharia
+        image-file: images/contribs.svg
+        hide-keys: general, languages, repositories
+        colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    - name: Generate the repositories stats
+      uses: cicirello/user-statistician@v1.24.2
+      with:
+        user: DhruvGardharia
+        image-file: images/repos.svg
+        hide-keys: general, contributions, languages
+        colors: '#1E1E2E #585B70 #CBA6F7 #CDD6F4 #CBA6F7'
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+```
