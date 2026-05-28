@@ -16,7 +16,6 @@ I enjoy exploring new technologies, developing scalable full stack applications,
 ### 🧐 More About Me:
 
 - <img src="https://media.giphy.com/media/fwbZnTftCXVocKzfxR/giphy.gif" width="20"> &nbsp; Currently building **AI-powered** and real-time applications;
-- <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="20"> &nbsp; Working on **NeXJob** and intelligent interview systems;
 - <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="20"> &nbsp; Exploring **AI/ML**, **System Design**, and backend engineering;
 - <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="20"> &nbsp; Most of my projects are available on [GitHub](https://github.com/DhruvGardharia);
 - <img src="https://media.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="20"> &nbsp; Ask me about **MERN Stack**, **AI/ML**, and hackathons;
