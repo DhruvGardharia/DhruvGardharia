@@ -1,10 +1,12 @@
-<div align="center">
-
+<div align="center"> 
+ 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&width=850&color=0:0f172a,25:1e1b4b,50:312e81,75:4338ca,100:06b6d4&text=Dhruv&fontAlign=50&fontAlignY=38&fontSize=68&fontColor=ffffff&desc=Full%20Stack%20Developer%20|%20AI/ML%20Explorer%20|%20System%20Builder&descAlignY=58&descSize=18&animation=fadeIn"/>
 
 </div>
 
 # Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32">, I'm Dhruv! <a href="https://dhruvgardharia.vercel.app/" target="_blank"><img align="right" src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=firefox&logoColor=white"/></a> <a href="https://www.linkedin.com/in/dhruv-gardharia-b3596831b/" target="_blank"><img align="right" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a> <a href="mailto:dhruvgardharia1611@gmail.com"><img align="right" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+
+
 
 I’m a passionate developer and engineering student at **Pune Institute of Computer Technology (PICT)** who loves building impactful software systems 🚀.  
 I enjoy exploring new technologies, developing scalable full stack applications, and integrating AI into real-world products.
@@ -124,3 +126,49 @@ Current Focus:
 - System Design
 - Real-Time Applications
 - Cloud & Backend Systems
+```
+
+</td>
+
+</tr>
+</table>
+<br>
+<br>
+
+<h2 align="center">📊 Github Stats</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/DhruvGardharia/DhruvGardharia/main/images/contribs.svg"
+    width="52%"
+  />
+  <img
+    src="https://raw.githubusercontent.com/DhruvGardharia/DhruvGardharia/main/images/languages.svg"
+    width="40.5%"
+  />
+</p>
+
+<br>
+<br>
+
+<h2 align="center">🌐 Connect With Me</h2>
+
+<p align="center">
+
+<a href="https://dhruvgardharia.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=firefox&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/dhruv-gardharia-b3596831b/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:dhruvgardharia1611@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</p>
+
+<br>
+
+<img width="850" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,25:1e1b4b,50:312e81,75:4338ca,100:06b6d4&height=120&section=footer"/>
