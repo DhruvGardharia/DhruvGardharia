@@ -151,24 +151,6 @@ Current Focus:
 <br>
 <br>
 
-<h2 align="center">🌐 Connect With Me</h2>
-
-<p align="center">
-
-<a href="https://dhruvgardharia.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=firefox&logoColor=white" />
-</a>
-
-<a href="https://www.linkedin.com/in/dhruv-gardharia-b3596831b/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:dhruvgardharia1611@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</p>
-
-<br>
-
+<div align="center">
 <img width="850" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,25:1e1b4b,50:312e81,75:4338ca,100:06b6d4&height=120&section=footer"/>
+</div>
